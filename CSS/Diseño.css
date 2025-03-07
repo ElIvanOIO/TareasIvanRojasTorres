@@ -8,7 +8,7 @@
 
 .logo {
     width: 20%;
-    background-image: url(/Imagenes/BMWW.jpg);
+    background-image: url(/..Imagenes/BMWW.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 60px;
@@ -21,7 +21,7 @@ body {
 
 .redes {
     width: 10%;
-    background-image: url(/Imagenes/descarga.png);
+    background-image: url(/..Imagenes/descarga.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 60px;
@@ -49,13 +49,9 @@ header {
 }
 
 
-/* BANNER */
-
 .banner {
     background-image: url(/Imagenes/M6.webp);
-    /* Reemplaza con la imagen correcta */
     background-size: 73%;
-    /* Ajusta el tamaño de la imagen al 150% */
     background-position: center;
     width: 90%;
     color: white;
@@ -69,8 +65,6 @@ header {
     border-radius: 5px;
 }
 
-
-/* TARJETAS */
 
 .tarjetas {
     display: flex;
@@ -134,9 +128,6 @@ header {
     margin: 10px 0px 10px 0px;
 }
 
-
-/* FORMULARIO */
-
 .formulario {
     text-align: center;
     padding: 20px;
@@ -165,8 +156,6 @@ button {
     cursor: pointer;
 }
 
-
-/* FOOTER */
 
 footer {
     background: #020202;
