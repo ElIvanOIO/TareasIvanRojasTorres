@@ -50,7 +50,7 @@ header {
 
 
 .banner {
-    background-image: url(/Imagenes/M6.webp);
+    background-image: url(../Imagenes/M6.webp);
     background-size: 73%;
     background-position: center;
     width: 90%;
