@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo img {
+    width: 100%;
+    height: 100px;
+}
+
+.menu {
+    float: left;
+    width: 60%;
+    height: 100px;
+    background-color: rgb(123, 134, 196);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    color: rgb(164, 0, 201);
+}
+
+.redes {
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-color: rgb(49, 111, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.redes i {
+    font-size: 30px;
+    color: #333;
+}
+
+header {
+    clear: both;
+}
+
+.imagen-header {
+    width: 100%;
+    height: 600px;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: #557980;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.titulos {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.producto-contenedor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.producto-contenedor img {
+    width: 50%;
+}
+
+.descripcion {
+    width: 50%;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.precio {
+    font-size: 20px;
+    color: #020202;
+}
+
+.btn {
+    background-color: #5bc0de;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #31b0d5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #43b2b9;
+}
+
+.final {
+    font-size: 16px;
+    color: #555;
+}
