@@ -8,7 +8,7 @@
 
 .logo {
     width: 20%;
-    background-image: url(/..Imagenes/BMWW.jpg);
+    background-image: url(../Imagenes/BMWW.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 60px;
@@ -21,7 +21,7 @@ body {
 
 .redes {
     width: 10%;
-    background-image: url(/..Imagenes/descarga.png);
+    background-image: url(../Imagenes/descarga.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 60px;
